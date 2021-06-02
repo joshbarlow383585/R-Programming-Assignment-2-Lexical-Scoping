@@ -1,6 +1,9 @@
 click on cachematrix.R file to view code
 
 
+
+Sample input and output:
+
  m <- matrix(c(5,4,8,9,7,8,2,1,0), ncol = 3, nrow = 3)
 > m
      [,1] [,2] [,3]
