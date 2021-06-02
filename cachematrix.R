@@ -28,3 +28,15 @@ cacheSolve <- function(x, ...) {
         x$setinv(m)
         m
 }
+
+# create a matrix to test functions
+m <- matrix(c(5,4,8,9,7,8,2,1,0), ncol = 3, nrow = 3)
+
+# view matrix
+m
+
+# create cache matrix
+m2 <- makeCacheMatrix(m)
+
+# create inverse matrix
+cacheSolve(m2)
